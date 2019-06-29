@@ -1,0 +1,128 @@
+<category id="catLine">
+	<block type="line_ifttt">
+		<value name="line_ifttt_event">
+		  <block type="text">
+			<field name="TEXT"></field>
+		  </block>
+		</value>
+		<value name="line_ifttt_key">
+		  <block type="text">
+			<field name="TEXT"></field>
+		  </block>
+		</value>
+		<value name="line_ifttt_value1">
+		  <block type="text">
+			<field name="TEXT"></field>
+		  </block>
+		</value>
+		<value name="line_ifttt_value2">
+		  <block type="text">
+			<field name="TEXT"></field>
+		  </block>
+		</value>
+		<value name="line_ifttt_value3">
+		  <block type="text">
+			<field name="TEXT"></field>
+		  </block>
+		</value>
+	</block>
+  
+	<block type="linenotify_set">
+	  <field name="name_" id="9a-l*cG7n${)*`9{91m9" variabletype="">linenotify</field>
+	  <value name="linenotify_token">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	<block type="linenotify_sendmsg">
+	  <field name="name_" id="9a-l*cG7n${)*`9{91m9" variabletype="">linenotify</field>
+	  <value name="notify_sendmsg">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	
+
+
+	<block type="linebot_set">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="linebot_token">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	  <value name="linebot_userid">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	<block type="linebot_on">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	</block>
+	<block type="linebot_message">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	</block>
+	<block type="linebot_sendmsg">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="bot_sendmsg">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	<block type="linebot_sendstk">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="bot_sendstkpkg">
+		<block type="math_number">
+		  <field name="NUM">1</field>
+		</block>
+	  </value>
+	  <value name="bot_sendstkid">
+		<block type="math_number">
+		  <field name="NUM">2</field>
+		</block>
+	  </value>
+	</block>
+	<block type="linebot_sendimg">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="bot_sendimg_s">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	  <value name="bot_sendimg">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	<block type="linebot_sendvideo">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="bot_sendvideo_s">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	  <value name="bot_sendvideo">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+	<block type="linebot_sendaudio">
+	  <field name="name_" id="tP:X`v/Y{ETTlD#q?Ce*" variabletype="">linebot</field>
+	  <value name="bot_sendaudio_s">
+		<block type="math_number">
+		  <field name="NUM">60000</field>
+		</block>
+	  </value>
+	  <value name="bot_sendaudio">
+		<block type="text">
+		  <field name="TEXT"></field>
+		</block>
+	  </value>
+	</block>
+</category>
