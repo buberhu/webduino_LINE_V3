@@ -48,8 +48,8 @@ Blockly.JavaScript['linebot_set'] = function(block) {
   var variable_name_ = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('name_'), Blockly.Variables.NAME_TYPE);
   var value_linebot_token = Blockly.JavaScript.valueToCode(block, 'linebot_token', Blockly.JavaScript.ORDER_ATOMIC);
   var value_linebot_userid = Blockly.JavaScript.valueToCode(block, 'linebot_userid', Blockly.JavaScript.ORDER_ATOMIC);
-  var value_linebot_firebaseid = Blockly.JavaScript.valueToCode(block, 'bot_firebaseid', Blockly.JavaScript.ORDER_ATOMIC) || '';
-  if(value_linebot_firebaseid==''&&value_linebot_firebaseid=="''") value_linebot_firebaseid='webduino-linebot-1ca6d';
+  var value_linebot_firebaseid = Blockly.JavaScript.valueToCode(block, 'bot_firebaseid', Blockly.JavaScript.ORDER_ATOMIC);
+  if(value_linebot_firebaseid==''||value_linebot_firebaseid=="''") value_linebot_firebaseid='webduino-linebot-1ca6d';
   
   var code = "var firebase1ca6d;\n"+
       		"var flag1ca6d=true;\n"+
