@@ -54,7 +54,7 @@ Blockly.JavaScript['linebot_set'] = function(block) {
   var code = "var firebase1ca6d;\n"+
       		"var flag1ca6d=true;\n"+
       		variable_name_+" = {token:" + value_linebot_token + ",userId:" + value_linebot_userid + ",onVal:''};\n"+
-		"firebase1ca6d = new Firebase('https://" + value_linebot_firebaseid + ".firebaseio.com/');\n";
+		"firebase1ca6d = new Firebase('https://" + value_linebot_firebaseid.replace("'",'') + ".firebaseio.com/');\n";
   return code;
 };
 
